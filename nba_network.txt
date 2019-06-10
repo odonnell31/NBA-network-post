@@ -1,0 +1,17 @@
+For this assignment (and to extend my last discussion post), the current NBA players would be a very interesting network to analyze.
+
+The goal of the analysis would be to predict which NBA superstars will team up during this offseason.
+
+To do so, I would first scrape 2018-2019 player data from basketballreference.com to create a list of all current NBA players. Then, I would again scrape basektballreference.com for the previous 10 seasons to identify which players have been teammates.
+
+With this list, I would create a weighted network that connects each current NBA player (a node) to each player they have played with. The number of seasons two players (two nodes in the network) spent as teammates would represent the weight of their connecting edge.
+
+The categorical variable for each player would be “NBA Champion” or “No Championships”. This variable would be important for predicting which players may team up – “No Championship” players more likely to chase championships.
+
+From this analysis, I would predict that Lebron James has the highest degree centrality across the network because he has influenced many changes in the league.
+
+I would also use this analysis to predict which superstar free agents will team up this offseason. For example, are Kyrie Irving and Kevin Durant strongly connected in this network? What about Anthony Davis and Kemba Walker? All the connections sports media pushes would be interesting to view in a social network.
+
+One of the most interesting points of analysis would be measuring the players with the highest closeness centrality to identify key influencers in the entire NBA network.
+
+To further extend this network, coaches could be added as nodes.
